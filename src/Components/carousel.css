@@ -1,0 +1,48 @@
+.carousel {
+  width: 60vw;
+  height: 40vw;
+  margin: auto;
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .carousel-image {
+    width: inherit;
+  }
+
+  .left-arrow,
+  .right-arrow {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+  }
+  .left-arrow {
+    left: 0px;
+  }
+  .btn {
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .slide-btn {
+      border: 1px solid;
+      margin: 3px;
+      height: 4px;
+      width: 30px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  }
+  .right-arrow {
+    right: 0;
+  }
+  .arrow {
+    width: inherit;
+    cursor: pointer;
+  }
+}
